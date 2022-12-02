@@ -12,6 +12,7 @@ Console.Clear();
 
 Console.Write("Количество элекментов исходного массива: ");
 int amount = Convert.ToInt32(Console.ReadLine()!);
+Console.WriteLine();
 
 string[] arrayInitial = new string[amount];
 for (int i = 0; i < amount; i++)
