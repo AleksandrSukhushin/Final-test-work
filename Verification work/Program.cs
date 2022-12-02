@@ -23,13 +23,13 @@ for (int i = 0; i < amount; i++)
 }
 
 string[] arrayFinal = new string[amount];
-int k = 3, index = 0;
-for (int j = 0; j < amount; j++)
+int k = 3, j = 0;
+for (int i = 0; i < amount; i++)
 {
-    if (arrayInitial[j].Length <= k)
+    if (arrayInitial[i].Length <= k)
     {
-        arrayFinal[index] = arrayInitial[j];
-        index++;
+        arrayFinal[j] = arrayInitial[i];
+        j++;
     }
 }
 void PrintArray(string[] array)
