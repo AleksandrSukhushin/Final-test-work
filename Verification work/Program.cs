@@ -23,8 +23,7 @@ for (int i = 0; i < amount; i++)
 }
 
 string[] arrayFinal = new string[amount];
-int k = 3;
-int index = 0;
+int k = 3, index = 0;
 for (int j = 0; j < amount; j++)
 {
     if (arrayInitial[j].Length <= k)
